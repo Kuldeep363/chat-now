@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #efeae2;
+}
+#bkg{
+  background: url("../../public/assets/chat-now-bkg.png") repeat;
+}
+input.input{
+  width: 100%;
+}
+.my-container{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+@media(min-width:768px){
+  .my-container{
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
+.input-group input, textarea{
+ padding: 10px 7px;
+ width: 100%;
+ border-radius: 4px; 
+ outline: none;
+ border: 1px solid #ededed;
+ font-size: 14px;
+}
+textarea{
+  resize: none;
+}
+ul{
+  list-style-type: disc;
+  margin-left: 15px;
+}
