@@ -71,7 +71,7 @@ const page = () => {
         </section>
 
         <footer className="mt-3 text-xs">
-          <p>&copy; 2023 Chat Now. All rights reserved.</p>
+          <p>© 2023 Chat Now. All rights reserved.</p>
         </footer>
     </div>
   );
